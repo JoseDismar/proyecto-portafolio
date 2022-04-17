@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Comunicate</title>
+
+	<link rel="stylesheet" href="../css/formulario.css">
+	<link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body id="fondo">
+	<header>
+		<fieldset>
+			<div id="encabezado">
+				<img src="../img/pi.png" height="100px" width="100px" alt="diadema">
+				<h1>Portafolio Personal  &nbsp;&nbsp;&nbsp; Jose Dismar</h1>
+				
+			</div>
+		</fieldset>
+
+	<main>
+      <section>
+        <form action="bienvenido.html" method="post" target="_blank">
+          <fieldset >
+            <legend>Contactenos</legend>
+            <table>
+              <tr>
+                <td align="right" class="leyenda">Nombre:</td>
+                <td><input type="text" name="nombre" required autofocus></td>
+              </tr>
+              <tr>
+                <td align="right" class="leyenda">Email:</td>
+                <td><input type="email" name="correo" id="" required></td>
+              </tr>
+              <tr>
+                <td align="right" class="leyenda">Movil:</td>
+                <td><input type="text" name="movil" required pattern="[0-9]{3}\s[\d]{7}$" title="debes escribir un numero de telefono ej: 314 6101441"></td>
+              </tr>
+              <tr>
+                <td align="right" valign="top" class="leyenda">Mensaje:</td>
+                <td><textarea name="mensaje" id="" cols="30" rows="4" required></textarea></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="image" src="../img/btn_enviar.png" alt="Enviar Datos"></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+		
+	</header>
+	<fieldset>
+		<footer>
+			<ul>
+		      <li><a href="http://web.Whatsapp.com"><img src="../img/Whatsapp.png" alt=""></a></li>
+		      <li><a href="http://www.Facebook.com"><img src="../img/Facebook.png" alt=""></a></li>
+		      <li><a href="http://www.Instagram.com"><img src="../img/Instagram.png" alt=""></a></li>
+		    </ul>
+     		<p>Derechos reservados &copy; 2017 Jose Dismar</p>
+		</footer>
+	</fieldset>
+
+	
+</body>
+</html>
